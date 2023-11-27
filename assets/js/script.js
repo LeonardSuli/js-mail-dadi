@@ -13,7 +13,7 @@ for (let i = 0; i < lista_email.length; i++) {
     console.log(element) 
 }
 
-if(lista_email === element){
+if(email === element){
     alert('Benvenuto')
 }else{
     alert('Accesso negato')
