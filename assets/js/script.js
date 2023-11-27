@@ -10,10 +10,10 @@ const email = prompt('Dimmi la tua E-mail')
 
 for (let i = 0; i < lista_email.length; i++) {
     const element = lista_email[i];
-    console.log(element) 
 }
 
-if(email === element){
+//stampo messaggio sull'esito del controllo
+if(email == element){
     alert('Benvenuto')
 }else{
     alert('Accesso negato')
