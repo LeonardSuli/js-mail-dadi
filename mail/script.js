@@ -8,13 +8,25 @@ const lista_email = ['leo@gmail.it', 'fabio@gmail.it', 'marco@gmail.it']
 //chiedo all'utente la sua email
 const email = prompt('Dimmi la tua E-mail')
 
+let trovata = false;
+
 for (let i = 0; i < lista_email.length; i++) {
     const element = lista_email[i];
+    
+    //stampo messaggio sull'esito del controllo
+ if (email == element){
+
+     
+     trovata = true;
+     
+    }
 }
 
-//stampo messaggio sull'esito del controllo
-if(email == element){
+if(trovata === true){
+    
     alert('Benvenuto')
+
 }else{
-    alert('Accesso negato')
+
+    alert('accesso negato')
 }
